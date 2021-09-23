@@ -1,0 +1,66 @@
+.header{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+
+  .container{
+    width: 1046px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: content-box;
+  }
+
+  .header-container{
+    display: flex;
+    min-height: 104px;
+    align-items: center;
+
+    .header-logo{
+      font-family: Montserrat, sans-serif;
+      font-weight: bold;
+      font-size: 24px;
+      color: #252B42;
+    }
+
+
+    .header-menu{
+      margin-left: 133px;
+
+      @media (max-width: 920px) {
+        margin-left: 100px;
+      }
+
+      @media (max-width: 800px){
+        margin-left: 70px;
+      }
+
+      @media (max-width: 576px){
+        margin-left: 40px;
+      }
+
+      .menu-list{
+        display: flex;
+        flex-wrap: wrap;
+        .menu-item{
+
+          &:not(:last-child){ /*чтобы у последнего элемента не было висячего отступа*/
+            margin-right: 21px;
+          }
+          .menu-link{
+            color: #737373;
+            font-family: Montserrat, sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
