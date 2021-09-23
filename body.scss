@@ -1,3 +1,91 @@
 .page{
-  flex: 1 1 auto;
+
+  .page-main_block{
+    position: relative;
+
+    .main-block_container{
+      width: 1046px;
+      margin: 0 auto;
+      padding-left: 15px;
+      padding-right: 15px;
+      box-sizing: content-box;
+
+      .main-block_body{
+        padding-top: 184px;
+        padding-bottom: 191px;
+        position: relative;
+        z-index: 2;
+        max-width: 510px;
+
+        .main-block_title{
+          font-family: Montserrat, sans-serif;
+          font-weight: 800;
+          font-size: 58px;
+          line-height: 80px;
+          letter-spacing: 0.2px;
+          color: #252B42;
+        }
+
+        .main-block_text{
+          width: 380px;
+          font-family: Montserrat, sans-serif;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          letter-spacing: 0.2px;
+          color: #737373;
+        }
+
+        .main-block_buttons{
+          display: flex;
+          width: 352px;
+          justify-content: space-between;
+
+          .main-block_first-button{
+            padding: 10px 36px 10px 36px;
+            background: #FF7B47;
+            border-radius: 37px;
+            color: white;
+            font-family: Montserrat, sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 28px;
+            border: none;
+          }
+
+          .main-block_second-button{
+            padding: 10px 36px 10px 36px;
+            border: 1px solid #0D5C63;
+            border-radius: 37px;
+            font-family: Montserrat, sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 28px;
+            color: #0D5C63;
+          }
+        }
+      }
+
+      .main-block_body > *:not(:last-child){ /*для всех элементов(первого уровня) в данном блоке сделать отступ снизу 35пх*/
+        margin-bottom: 35px;
+      }
+
+    }
+  }
+
+  .main-block_image img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
+    @media (max-width: 1380px){
+      object-position: right; /*Делаем акцент на правой стороне картинки при определённой ширине экрана*/
+    }
+    @media (max-width: 860px) {
+      opacity: 0.5;
+    }
+  }
 }
