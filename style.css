@@ -58,6 +58,11 @@
   line-height: 24px;
 }
 
+._container {
+  width: 1046px;
+  margin: 0 auto;
+}
+
 .page .page-main_block {
   position: relative;
 }
@@ -141,6 +146,211 @@
     opacity: 0.5;
   }
 }
+.page .page-service {
+  margin-top: -111px;
+  position: relative;
+  z-index: 10;
+}
+.page .page-service .service_container {
+  max-width: 1046px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+}
+@media (max-width: 1043px) {
+  .page .page-service .service_container {
+    justify-content: center;
+  }
+}
+.page .page-service .service_container .service-info {
+  margin: 0 15px;
+  width: 318px;
+  height: 242px;
+  box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
+  background: white;
+}
+@media (max-width: 1043px) {
+  .page .page-service .service_container .service-info {
+    margin-top: 30px;
+    width: 450px;
+  }
+}
+@media (max-width: 959px) {
+  .page .page-service .service_container .service-info {
+    width: 700px;
+  }
+}
+.page .page-service .service_container ._green_block {
+  background: #0D5C63;
+}
+@media (max-width: 1043px) {
+  .page .page-service .service_container ._green_block {
+    margin-top: 30px;
+  }
+}
+.page .page-service .service_container .service-img {
+  padding-left: 40px;
+  padding-top: 35px;
+}
+.page .page-service .service_container .service-title {
+  padding: 13px 0 0 40px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+.page .page-service .service_container ._green_title {
+  color: white;
+}
+.page .page-service .service_container .service-text_block {
+  width: 260px;
+}
+.page .page-service .service_container .service-text_block .service-text {
+  padding: 13px 0 0 40px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.page .page-service .service_container .service-text_block ._green_text {
+  color: white;
+}
+.page .designing {
+  width: 100%;
+}
+.page .designing .designing-title_block {
+  text-align: center;
+  padding-top: 80px;
+}
+.page .designing .designing-title_block .designing-title {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+.page .designing .designing-text_block {
+  width: 511px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+}
+.page .designing .designing-text_block .designing-text {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.page .designing .achievements {
+  max-width: 1049px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.page .designing .achievements .achievement {
+  background: #FFFFFF;
+  margin: 0 15px;
+  text-align: center;
+}
+.page .designing .achievements .achievement .achievement-img {
+  padding: 32px 91px 0 91px;
+}
+.page .designing .achievements .count {
+  padding-top: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+.page .designing .achievements .achievement-text {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #737373;
+}
+.page .practice-advice {
+  width: 1049px;
+  margin: 0 auto;
+}
+.page .practice-advice .practice-advice_block {
+  width: 470px;
+  margin: 0 auto;
+  text-align: center;
+}
+.page .practice-advice .practice-advice_block .practice-advice_title {
+  padding-top: 125px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+.page .practice-advice .practice-advice_block .practice-advice_text {
+  padding-top: 15px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.page .practice-advice .practice-advice_cards {
+  max-width: 1049px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.page .practice-advice .practice-advice_cards .card {
+  background: #FFFFFF;
+  display: flex;
+  max-width: 240px;
+}
+.page .practice-advice .practice-advice_cards .card .card-title {
+  width: 135px;
+  padding: 30px 67px 0 30px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+.page .practice-advice .practice-advice_cards .card .card-text {
+  width: 160px;
+  padding: 15px 42px 30px 30px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.page .practice-advice .practice-advice_cards .card .card_img {
+  bottom: 0;
+}
 
 body {
   padding: 0;
@@ -169,6 +379,7 @@ ul, li {
 .wrapper {
   width: 100%;
   overflow: hidden;
+  background: #FAFAFA;
 }
 
 /*# sourceMappingURL=style.css.map */

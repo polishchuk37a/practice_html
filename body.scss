@@ -1,5 +1,9 @@
-.page{
+._container{
+  width: 1046px;
+  margin: 0 auto;
+}
 
+.page{
   .page-main_block{
     position: relative;
 
@@ -88,4 +92,231 @@
       opacity: 0.5;
     }
   }
+
+
+  .page-service{
+    margin-top: -111px;
+    position: relative;
+    z-index: 10;
+
+    .service_container{
+      max-width: 1046px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: content-box;
+      @media(max-width: 1043px){
+        justify-content: center;
+      }
+
+      .service-info{
+        margin: 0 15px;
+        width: 318px;
+        height: 242px;
+        box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
+        background: white;
+
+        @media(max-width: 1043px){
+          margin-top: 30px;
+          width: 450px;
+        }
+
+        @media(max-width: 959px){
+          width: 700px;
+        }
+
+      }
+
+      ._green_block{
+        background: #0D5C63;
+
+        @media(max-width: 1043px){
+          margin-top: 30px;
+        }
+      }
+
+      .service-img{
+        padding-left: 40px;
+        padding-top: 35px;
+      }
+
+      .service-title{
+        padding: 13px 0 0 40px;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+        color: #252B42;
+      }
+      ._green_title{
+        color: white;
+      }
+
+      .service-text_block{
+        width: 260px;
+
+        .service-text{
+          padding: 13px 0 0 40px;
+          font-family: Montserrat, sans-serif;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.2px;
+          color: #737373;
+        }
+
+        ._green_text{
+          color: white;
+        }
+      }
+
+    }
+  }
+
+  .designing{
+    width: 100%;
+    .designing-title_block{
+      text-align: center;
+      padding-top: 80px;
+      .designing-title{
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+      }
+    }
+
+
+
+    .designing-text_block{
+      width: 511px;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 10px;
+      .designing-text{
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #737373;
+      }
+    }
+
+    .achievements{
+      max-width: 1049px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-top: 50px;
+      padding-bottom: 80px;
+
+      .achievement{
+        background: #FFFFFF;
+        margin: 0 15px;
+        text-align: center;
+        .achievement-img{
+          padding: 32px 91px 0 91px;
+        }
+      }
+      .count{
+        padding-top: 13px;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+      }
+      .achievement-text{
+        padding-top: 15px;
+        padding-bottom: 30px;
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #737373;
+      }
+    }
+  }
+
+
+  .practice-advice{
+    width: 1049px;
+    margin: 0 auto;
+
+    .practice-advice_block{
+      width: 470px;
+      margin: 0 auto;
+      text-align: center;
+      .practice-advice_title{
+        padding-top: 125px;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+      }
+      .practice-advice_text{
+        padding-top: 15px;
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #737373;
+      }
+    }
+
+    .practice-advice_cards{
+      max-width: 1049px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+
+      .card{
+        background: #FFFFFF;
+        display: flex;
+        max-width: 240px;
+
+        .card-title{
+          width: 135px;
+          padding: 30px 67px 0 30px;
+          font-family: Montserrat, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.1px;
+          color: #252B42;
+        }
+        .card-text {
+          width: 160px;
+          padding: 15px 42px 30px 30px;
+          font-family: Montserrat, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.2px;
+          color: #737373;
+        }
+        .card_img{
+          bottom: 0;
+        }
+      }
+
+    }
+  }
+
+
 }
